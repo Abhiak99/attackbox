@@ -32,20 +32,6 @@ echo "export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
 
-sudo -i
-echo "export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.profile
-
-echo "export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
-
-source ~/.bashrc
-source ~/.profile
-
-exit
-
 source ~/.bashrc
 source ~/.profile
 
