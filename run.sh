@@ -13,7 +13,7 @@ sudo apt install net-tools
 
 # autorecon tools
 
-sudo apt install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
+sudo snap install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 
 ## Golang Installation
 
@@ -54,4 +54,20 @@ sudo snap install httpx
 ## naabu
 
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
+## amass
+
+sudo snap install amass
+
+## ffuf 
+go install -v github.com/ffuf/ffuf@latest
+
+## Webanalyzer go
+go install -v github.com/rverton/webanalyze/cmd/webanalyze@latest
+webanalyze -update
+
+## nuclei 
+
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+
 
