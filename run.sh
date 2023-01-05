@@ -37,6 +37,14 @@ source ~/.profile
 
 rm lol.gz*
 
+### there is an error of <pcap.h> no such file or directory so I found a fix 
+
+sudo apt-get install libpcap-dev
+
+# OR <uncomment> below 
+#sudo apt-get install libpcap0.8-dev
+
+
 ## subfinder
 
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
