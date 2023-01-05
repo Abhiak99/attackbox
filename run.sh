@@ -24,17 +24,18 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf lol.gz
 
 echo $(go version)
 
-echo "export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.profile
+# echo "export GOROOT=/usr/local/go
+# export GOPATH=$HOME/go
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.profile
 
-echo "export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin" >> $HOME/.bashrc
+## echo "export GOROOT=/usr/local/go
+## export GOPATH=$HOME/go
+echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bashrc
 
 source ~/.bashrc
 source ~/.profile
 
+rm lol.gz*
 
 ## subfinder
 
