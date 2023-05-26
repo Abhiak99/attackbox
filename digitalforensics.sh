@@ -1,2 +1,2 @@
 ## For pdf informations
-sudo apt install pdfinfo
+sudo apt install poppler-utils
