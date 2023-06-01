@@ -13,9 +13,17 @@ sudo apt install net-tools
 
 # autorecon tools
 
-sudo snap install seclists curl dnsrecon enum4linux feroxbuster gobuster impacket-scripts nbtscan nikto nmap onesixtyone oscanner redis-tools smbclient smbmap snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
+sudo snap install seclists curl enum4linux feroxbuster impacket tnscmd10g
+sudo apt install gobuster dnsrecon nbtscan nikto nmap onesixtyone redis-tools smbclient smbmap snmp sslscan sipvicious whatweb wkhtmltopdf
+
+
+#### oscanner <To be Updated>
+
+
 
 ## Golang Installation
+
+
 
 sudo apt install wget
 
