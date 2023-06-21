@@ -92,7 +92,9 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 pip3 install mitmproxy2swagger termcolor cprint pycryptodomex requests
 
+## Crobat from SONAR Project
 
+go get github.com/cgboal/sonarsearch/cmd/crobat
 
 
 
