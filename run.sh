@@ -94,7 +94,7 @@ pip3 install mitmproxy2swagger termcolor cprint pycryptodomex requests
 
 ## Crobat from SONAR Project
 
-go install -v github.com/cgboal/sonarsearch/cmd/crobat
+go install -v github.com/cgboal/sonarsearch/cmd/crobat@latest
 
 
 
