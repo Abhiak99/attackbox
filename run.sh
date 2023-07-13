@@ -91,5 +91,5 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 go install -v github.com/cgboal/sonarsearch/cmd/crobat@latest
 
-
-
+## DNSx 
+go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest
