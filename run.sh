@@ -27,7 +27,7 @@ sudo apt install gobuster dnsrecon nbtscan nikto nmap onesixtyone redis-tools sm
 
 sudo apt install wget
 
-wget https://go.dev/dl/go1.22.0.linux-amd64.tar.gz -O lol.gz 
+wget https://go.dev/dl/go1.22.2.linux-amd64.tar.gz -O lol.gz 
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf lol.gz
 
 echo $(go version)
