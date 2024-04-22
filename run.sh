@@ -13,8 +13,8 @@ sudo apt install net-tools
 
 # autorecon tools
 
-sudo snap install seclists curl enum4linux feroxbuster impacket tnscmd10g
-sudo apt install gobuster dnsrecon nbtscan nikto nmap onesixtyone redis-tools smbclient smbmap snmp sslscan sipvicious whatweb wkhtmltopdf
+sudo snap install seclists curl enum4linux feroxbuster impacket tnscmd10g -y
+sudo apt install gobuster dnsrecon nbtscan nikto nmap onesixtyone redis-tools smbclient smbmap snmp sslscan sipvicious whatweb wkhtmltopdf -y
 
 
 #### oscanner <To be Updated>
