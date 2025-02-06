@@ -64,9 +64,12 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/tomnomnom/assetfinder@latest
 
 
+## gau
+go install github.com/lc/gau/v2/cmd/gau@latest
+
 ## httpx
 
-sudo snap install httpx
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 ## naabu
 
