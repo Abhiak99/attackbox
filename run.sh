@@ -94,8 +94,8 @@ go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 
 ## Crobat from SONAR Project
 
-#go install -v github.com/cgboal/sonarsearch/cmd/crobat@latest
-go get github.com/cgboal/sonarsearch/cmd/crobat
+go install -v github.com/cgboal/sonarsearch/cmd/crobat@latest
+#go get github.com/cgboal/sonarsearch/cmd/crobat
 
 
 ## DNSx 
