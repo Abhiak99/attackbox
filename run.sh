@@ -63,6 +63,8 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
 go install -v github.com/tomnomnom/assetfinder@latest
 
+## ALterx
+go install github.com/projectdiscovery/alterx/cmd/alterx@latest
 
 ## gau
 go install github.com/lc/gau/v2/cmd/gau@latest
