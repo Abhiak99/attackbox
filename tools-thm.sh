@@ -64,3 +64,11 @@ parameters = false
 providers = ["wayback","commoncrawl","otx","urlscan"]' > /root/.gau.toml 
 
 
+
+git clone https://github.com/ameenmaali/urldedupe.git
+cd urldedupe
+cmake CMakeLists.txt
+make
+cp urldedupe /usr/bin/
+cd ..
+
